@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "565967378806",
+    "project_id": "hive-f2490",
+    "storage_bucket": "hive-f2490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565967378806:android:38cf1ed24c79a82d964257",
+        "android_client_info": {
+          "package_name": "com.example.hive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565967378806-29pcupc43ul4luidjb4ugn735ijs60fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG6-CzEp52VnH70oek0Slg2vMrRkCp7Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565967378806-29pcupc43ul4luidjb4ugn735ijs60fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
