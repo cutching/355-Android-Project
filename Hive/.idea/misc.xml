@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.1328125" />
-        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.4193159324713279" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.10714285714285714" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.3312883435582822" />
+        <entry key="app/src/main/res/layout/calendar_page.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/task_page.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/venmo_page.xml" value="0.2826086956521739" />
       </map>
     </option>
   </component>
