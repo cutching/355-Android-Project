@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:background="#e7dae0"
+    android:padding="20dp"
+    tools:ignore="ExtraText"><![CDATA[>
+
+
+
+
+
+
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="110dp"
+        android:layout_height="119dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/bee" />
+
+    <TextView
+        android:id="@+id/largeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/changa_one"
+        android:text="WELCOME!"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="359dp"
+        android:layout_height="83dp"
+        android:text="Grocery List" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="358dp"
+        android:layout_height="82dp"
+        android:text="To Do List" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="358dp"
+        android:layout_height="79dp"
+        android:text="Calendar" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="358dp"
+        android:layout_height="87dp"
+        android:text="Venmo" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="359dp"
+        android:layout_height="82dp"
+        android:text="Other Notes" />
+
+</LinearLayout>
