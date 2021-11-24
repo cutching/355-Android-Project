@@ -3,10 +3,7 @@ package com.example.hive;
 public class UserHelperClass {
 
     String name, phoneNum, email, password;
-
-    public UserHelperClass(String name) {
-
-    }
+    int houseCode = -1;
 
     public UserHelperClass(String name, String phoneNum, String email, String password) {
         this.name = name;
@@ -45,5 +42,13 @@ public class UserHelperClass {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public int getHouseCode() {
+        return houseCode;
+    }
+
+    public void setHouseCode(int houseCode) {
+        this.houseCode = houseCode;
     }
 }
