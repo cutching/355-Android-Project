@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hive">
         <activity
+            android:name=".Reminders"
+            android:exported="true" />
+        <activity
+            android:name=".Groceries"
+            android:exported="true" />
+        <activity
+            android:name=".Notes"
+            android:exported="true" />
+        <activity
+            android:name=".Calendar"
+            android:exported="true" />
+        <activity
+            android:name=".emailConfirmation"
+            android:exported="true" />
+        <activity
             android:name=".HomePage"
             android:exported="true" />
         <activity

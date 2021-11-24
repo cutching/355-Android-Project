@@ -30,4 +30,6 @@ public class HomePage extends AppCompatActivity {
         fullName.setText("WELCOME, " + name.toUpperCase() + "!");
     }
 
+
+
 }

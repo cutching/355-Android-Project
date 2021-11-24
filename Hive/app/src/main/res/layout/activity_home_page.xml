@@ -38,13 +38,15 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="85dp"
-        android:text="Groceries" />
+        android:text="Groceries"
+        android:onClick="goToGroceries" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="85dp"
-        android:text="Reminders" />
+        android:text="Reminders"
+        android:onClick="goToReminders" />
 
     <Button
         android:id="@+id/button4"
@@ -56,13 +58,15 @@
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="85dp"
-        android:text="Notes" />
+        android:text="Notes"
+        android:onClick="goToNotes" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="85dp"
-        android:text="Calendar" />
+        android:text="Calendar"
+        android:onClick="goToCalendar" />
 
     <CalendarView
         android:id="@+id/calendarView"

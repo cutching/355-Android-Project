@@ -2,6 +2,7 @@ package com.example.hive;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -120,4 +121,26 @@ public class SignUp extends AppCompatActivity {
 
     }
 
+    /*
+    * ALL goTo methods start the corresponding activity
+    * */
+    public void goToCalendar(View view){
+        Intent intent = new Intent(this, Calendar.class);
+        startActivity(intent);
+    }
+
+    public void goToNotes(View view) {
+        Intent intent = new Intent(this, Notes.class);
+        startActivity(intent);
+    }
+
+    public void goToGroceries(View view) {
+        Intent intent = new Intent(this, Groceries.class);
+        startActivity(intent);
+    }
+
+    public void goToReminders(View view) {
+        Intent intent = new Intent(this, Reminders.class);
+        startActivity(intent);
+    }
 }
