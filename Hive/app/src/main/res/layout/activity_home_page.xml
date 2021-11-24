@@ -36,32 +36,37 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="359dp"
-        android:layout_height="83dp"
-        android:text="Grocery List" />
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Groceries" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="358dp"
-        android:layout_height="82dp"
-        android:text="To Do List" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="358dp"
-        android:layout_height="79dp"
-        android:text="Calendar" />
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Reminders" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="358dp"
-        android:layout_height="87dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
         android:text="Venmo" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="359dp"
-        android:layout_height="82dp"
-        android:text="Other Notes" />
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Notes" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Calendar" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
