@@ -35,14 +35,14 @@
         android:textSize="40sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/groceriesButton"
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:text="Groceries"
         android:onClick="goToGroceries" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/remindersButton"
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:text="Reminders"
@@ -55,14 +55,14 @@
         android:text="Venmo" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/notesButton"
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:text="Notes"
         android:onClick="goToNotes" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/calendarButton"
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:text="Calendar"
