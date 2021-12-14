@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hive">
         <activity
+            android:name=".Settings"
+            android:exported="true" />
+        <activity
             android:name=".activity_calendar_week"
             android:exported="false" />
         <activity
