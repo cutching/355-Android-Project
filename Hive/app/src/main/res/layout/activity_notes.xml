@@ -18,6 +18,13 @@
 
     ]]>
 
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:onClick="goToSettings" />
+
     <ImageView
         android:id="@+id/logoImage"
         android:layout_width="110dp"

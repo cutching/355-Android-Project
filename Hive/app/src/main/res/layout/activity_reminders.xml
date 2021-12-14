@@ -4,52 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e7dae0"
-    android:orientation="vertical"
-    android:padding="20dp"
     tools:context=".SignUp"
+    android:orientation="vertical"
+    android:background="#e7dae0"
+    android:padding="20dp"
     tools:ignore="ExtraText"><![CDATA[>
+
+
+
+
+
+
+
     ]]>
 
-    <ImageView
-        android:id="@+id/logoImage"
+    <Button
+        android:id="@+id/settingsButton"
         android:layout_width="110dp"
-        android:layout_height="119dp"
-        android:layout_marginBottom="5dp"
-        android:src="@drawable/bee" />
-
-
-    <TextView
-        android:id="@+id/largeName"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/changa_one"
-        android:text="Reminders"
-        android:textColor="@color/black"
-        android:textSize="40sp" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="left|bottom"
-        android:orientation="vertical" >
-
-
-        <Button
-            android:id="@+id/addReminderButton"
-            android:layout_width="371dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginEnd="1dp"
-            android:backgroundTint="@color/black"
-            android:baselineAligned="false"
-            android:text="+ add a reminder"
-            android:visibility="visible"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-
-    </LinearLayout>
+        android:text="Settings"
+        android:onClick="goToSettings" />
 
 </LinearLayout>
