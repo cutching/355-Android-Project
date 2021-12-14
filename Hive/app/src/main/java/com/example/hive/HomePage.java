@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class HomePage extends AppCompatActivity {
 
-    Button callGroceries, callReminders, callNotes, callCalendar, callSettings;
+    Button callGroceries, callReminders, callNotes, callCalendar;
 
     TextView fullName;
 
@@ -55,15 +55,6 @@ public class HomePage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomePage.this,Calendar.class);
-                startActivity(intent);
-            }
-        });
-
-        callSettings = findViewById(R.id.settingsButton);
-        callSettings.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HomePage.this,Settings.class);
                 startActivity(intent);
             }
         });

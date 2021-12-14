@@ -143,9 +143,4 @@ public class SignUp extends AppCompatActivity {
         Intent intent = new Intent(this, Reminders.class);
         startActivity(intent);
     }
-
-    public void goToSettings(View view) {
-        Intent intent = new Intent(this, Settings.class);
-        startActivity(intent);
-    }
 }

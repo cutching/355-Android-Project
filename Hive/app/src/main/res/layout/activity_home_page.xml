@@ -18,13 +18,6 @@
 
     ]]>
 
-    <Button
-        android:id="@+id/settingsButton"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:text="Settings"
-        android:onClick="goToSettings" />
-
     <ImageView
         android:id="@+id/logoImage"
         android:layout_width="110dp"
@@ -74,5 +67,10 @@
         android:layout_height="85dp"
         android:text="Calendar"
         android:onClick="goToCalendar" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
