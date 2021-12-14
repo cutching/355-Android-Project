@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hive">
         <activity
+            android:name=".activity_calendar_week"
+            android:exported="false" />
+        <activity
+            android:name=".activity_calendar_event"
+            android:exported="false" />
+        <activity
             android:name=".Reminders"
             android:exported="true" />
         <activity
