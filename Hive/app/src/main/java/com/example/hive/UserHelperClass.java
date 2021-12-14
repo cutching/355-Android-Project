@@ -64,15 +64,16 @@ public class UserHelperClass{
     }
 
     public boolean checkExistingHouseCode(int houseCode){
-        final boolean[] result = {false};
+
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
         Query query = reference.child("user").orderByChild("houseCode").equalTo(houseCode);
         query.addListenerForSingleValueEvent(new ValueEventListener() {
+
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if (dataSnapshot.exists()) {
                     // dataSnapshot is the "houseCode" node with all children matching the houseCode
-                   result[0] = true;
+                   setHouseCode(-1);
                 }
             }
 
@@ -82,9 +83,7 @@ public class UserHelperClass{
             }
         });
 
-
-
-        return result[0];
+        return getHouseCode() == -1;
     }
 
 
