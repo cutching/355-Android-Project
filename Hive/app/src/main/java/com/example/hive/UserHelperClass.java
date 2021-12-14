@@ -1,6 +1,17 @@
 package com.example.hive;
 
-public class UserHelperClass {
+import android.content.Intent;
+
+import androidx.annotation.NonNull;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+
+public class UserHelperClass{
 
     String name, phoneNum, email, password;
     int houseCode = -1;
@@ -50,5 +61,43 @@ public class UserHelperClass {
 
     public void setHouseCode(int houseCode) {
         this.houseCode = houseCode;
+    }
+
+    public boolean checkExistingHouseCode(int houseCode){
+        final boolean[] result = {false};
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
+        Query query = reference.child("user").orderByChild("houseCode").equalTo(houseCode);
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (dataSnapshot.exists()) {
+                    // dataSnapshot is the "houseCode" node with all children matching the houseCode
+                   result[0] = true;
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+
+
+        return result[0];
+    }
+
+
+
+    public void generateNewHouseCode(){
+        int temp = -1;
+        if(houseCode == -1){
+            do{
+                temp = (int)(Math.random()*9000)+1000;
+            }while(checkExistingHouseCode(temp));
+
+            setHouseCode(temp);
+        }
+
     }
 }
