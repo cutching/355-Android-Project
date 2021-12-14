@@ -19,7 +19,7 @@
     ]]>
 
   <Button
-      android:id="@+id/button2"
+      android:id="@+id/settingsButton"
       android:layout_width="110dp"
       android:layout_height="wrap_content"
       android:text="Settings"
