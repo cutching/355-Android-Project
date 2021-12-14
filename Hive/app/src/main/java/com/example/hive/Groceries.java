@@ -68,7 +68,7 @@ public class Groceries extends AppCompatActivity {
         groceryAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, items);
         groceryListView.setAdapter(groceryAdapter);
         groceryAdapter.notifyDataSetChanged();
-
+        
         groceryListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {

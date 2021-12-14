@@ -7,30 +7,27 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.26927083333333335" />
         <entry key="app/src/main/res/font/baloo.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/font/changa_one.xml" value="0.2833333333333333" />
-        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_calendar_event.xml" value="0.18541666666666667" />
-        <entry key="app/src/main/res/layout/activity_calendar_week.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.1328125" />
         <entry key="app/src/main/res/layout/activity_email_confirmation_page.xml" value="0.25226449275362317" />
-        <entry key="app/src/main/res/layout/activity_groceries.xml" value="0.12916666666666668" />
+        <entry key="app/src/main/res/layout/activity_groceries.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.14605646918064127" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.10714285714285714" />
-        <entry key="app/src/main/res/layout/activity_notes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_notes.xml" value="0.12916666666666668" />
         <entry key="app/src/main/res/layout/activity_reminders.xml" value="0.12916666666666668" />
-        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.2056159420289855" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.3312883435582822" />
-        <entry key="app/src/main/res/layout/calendar_dummy.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/calendar_event_dummy.xml" value="0.16927083333333334" />
         <entry key="app/src/main/res/layout/calendar_page.xml" value="0.1296875" />
         <entry key="app/src/main/res/layout/grocery_page.xml" value="0.1296875" />
+        <entry key="app/src/main/res/layout/grocery_popup.xml" value="0.1" />
         <entry key="app/src/main/res/layout/notes_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/reminder_popup.xml" value="0.16168478260869565" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26927083333333335" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26927083333333335" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
