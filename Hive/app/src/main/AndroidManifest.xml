@@ -13,6 +13,12 @@
             android:name=".Settings"
             android:exported="true" />
         <activity
+            android:name=".activity_calendar_week"
+            android:exported="false" />
+        <activity
+            android:name=".activity_calendar_event"
+            android:exported="false" />
+        <activity
             android:name=".Reminders"
             android:exported="true" />
         <activity

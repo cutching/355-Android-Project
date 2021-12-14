@@ -8,6 +8,8 @@
         <entry key="app/src/main/res/font/baloo.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/font/changa_one.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_calendar_event.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout/activity_calendar_week.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.1328125" />
         <entry key="app/src/main/res/layout/activity_email_confirmation_page.xml" value="0.25226449275362317" />
         <entry key="app/src/main/res/layout/activity_groceries.xml" value="0.12916666666666668" />
@@ -18,6 +20,8 @@
         <entry key="app/src/main/res/layout/activity_reminders.xml" value="0.12916666666666668" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.2056159420289855" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.3312883435582822" />
+        <entry key="app/src/main/res/layout/calendar_dummy.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/calendar_event_dummy.xml" value="0.16927083333333334" />
         <entry key="app/src/main/res/layout/calendar_page.xml" value="0.1296875" />
         <entry key="app/src/main/res/layout/grocery_page.xml" value="0.1296875" />
         <entry key="app/src/main/res/layout/notes_page.xml" value="0.1" />

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp"
-    android:orientation="vertical"
     android:background="#e7dae0"
-    android:padding="20dp"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".Calendar"
     tools:ignore="ExtraText"><![CDATA[>
 
 
@@ -17,6 +18,41 @@
 
 
     ]]>
+  <androidx.constraintlayout.widget.ConstraintLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"><![CDATA[
+
+    />
+
+
+
+
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="52dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="340dp"
+        android:src="@drawable/bee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/largeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="124dp"
+        android:fontFamily="@font/changa_one"
+        android:text="Calendar"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
   <Button
       android:id="@+id/settingsButton"
@@ -31,20 +67,139 @@
       android:layout_height="119dp"
       android:layout_marginBottom="5dp"
       android:src="@drawable/bee" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:background="@null"
+        android:onClick="weeklyAction"
+        android:paddingTop="8dp"
+        android:text="Weekly"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />/>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
-  <TextView
-      android:id="@+id/largeName"
-      android:layout_width="wrap_content"
+
+  <LinearLayout
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:fontFamily="@font/changa_one"
-      android:text="Buzz of the Month"
-      android:textColor="@color/black"
-      android:textSize="40sp" />
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      android:orientation="horizontal">
 
-  <Button
-      android:id="@+id/button5"
-      android:layout_width="359dp"
-      android:layout_height="82dp"
-      android:text="Add Plans" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:onClick="previousMonthAction"
+        android:text="&lt;-"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/monthYearTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Dec 2021"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:onClick="nextMonthAction"
+        android:text="-&gt;"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+  </LinearLayout>
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SUN"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MON"
+        android:textColor="@color/grey"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TUE"
+        android:textColor="@color/grey"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="WED"
+        android:textColor="@color/grey"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="THUR"
+        android:textColor="@color/grey"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="FRI"
+        android:textColor="@color/grey"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SAT"
+        android:textColor="@color/grey"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+   </LinearLayout>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/calendarRecyclerView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
 
 </LinearLayout>
